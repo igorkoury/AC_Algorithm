@@ -1,6 +1,6 @@
 var list = [17, 20, 26, 31, 44, 54, 55, 65, 77, 93];
 
-function binarySearch(array, inten) {
+function binarySearch(array, iten) {
     let first = 0;
     let last = array.length - 1;
     let found = false;
@@ -10,7 +10,7 @@ function binarySearch(array, inten) {
         if(array[middleList] == inten) {
             found = true
         } else {
-            if (inten < array[middleList]) {
+            if (iten < array[middleList]) {
                 last = middleList - 1
             }
             else {
